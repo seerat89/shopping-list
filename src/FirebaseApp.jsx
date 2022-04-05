@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore/lite';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAn63T5XufIhi5jSdLFHzVs65fJdHNopRA',
-  authDomain: 'shopping-list-4523e.firebaseapp.com',
-  projectId: 'shopping-list-4523e',
-  storageBucket: 'shopping-list-4523e.appspot.com',
-  messagingSenderId: '875803246772',
-  appId: '1:875803246772:web:a7ae9b6e017d53ddb3d7e1',
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: process.env.REACT_APP_AUTHDOMAIN,
+  projectId: process.env.REACT_APP_PROJECTID,
+  storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGEING_SENDERID,
+  appId: process.env.REACT_APP_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
