@@ -12,7 +12,14 @@ function Footer() {
       }}
     >
       <Header as="h5">2022 - seerat.me</Header>
-      <Button circular icon="github" color="violet" />
+      <Button
+        circular
+        icon="github"
+        color="violet"
+        onClick={() =>
+          window.open('https://github.com/seerat89/shopping-list', '_blank')
+        }
+      />
     </div>
   );
 }
