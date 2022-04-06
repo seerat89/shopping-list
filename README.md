@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple shopping list app, the project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), the UI is utalized by [React Semantic UI](https://react.semantic-ui.com/), and the data will be stored in a [Firebase](https://firebase.google.com/) database.
+
+The online demo can be found [here](https://simple-ostoslista.herokuapp.com/)
 
 ## Available Scripts
 
